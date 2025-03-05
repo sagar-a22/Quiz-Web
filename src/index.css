@@ -1,0 +1,44 @@
+.quiz-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.quiz-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
+
+.answer-input {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.answer-input:focus {
+  border-color: #ffcc00;
+  box-shadow: 0 0 8px rgba(255, 204, 0, 0.5);
+}
+
+.card {
+  border-radius: 12px;
+  background: #f8f9fa;
+}
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
